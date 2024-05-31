@@ -1,0 +1,37 @@
+body {margin:0;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+.topnav {
+  font-family: 'New Rocker', cursive;
+  position: absolute; 
+  width: 100%;
+  top: 0;
+}
+.topnav a {
+  float: right;
+  color: #999999;
+  margin-top: 5%;
+  margin-right: 5%;
+  text-decoration: none;
+  font-size: 70px;
+}
+.topnav a:hover {
+  opacity:90%;
+  color: #595959 ;
+  transition: 0.5s;
+}
+
+}
+
+
+
+
+
+
+
+

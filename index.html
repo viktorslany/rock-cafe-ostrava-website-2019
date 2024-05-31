@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="shortcut icon" href="favicons/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="favicons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+  
+  <meta name="google-site-verification" content="gw6akmzYwIacZtXCsz3EwYeESE0DhOigCNWmf4Ik27k" />
+  <title>Rock Cafe Na Pohodu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navigation menu -->
+<div class="topnav" id="myTopnav">
+  <a class="logo"><img src="images/logos/logocafe.png" height="57px" width="200px"  onmouseover="this.src='images/logos/logocafe.png'"onmouseout="this.src='images/logos/logocafe.png'"></a>
+  <a href="index.html" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-home"></i></a>
+  <a href="menu.html">Menu</a>
+  <a href="program.html">Program</a>
+  <a href="gallery.html">Fotogalerie</a>
+  <a href="contacts.html">Kontakty</a>  
+  <div class="dropdown" >
+    <button class="dropbtn" style="text-align: center;">REZERVACE</button>
+    <div class="dropdown-content">
+      <p>Rezervace je momentálně možná po telefonu.</p>
+      <p>Tel.: (+420) 737 687 663</p>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- Slides -->
+<div class="w3-content w3-section" style="max-width:100%;padding-top: 74px;" > 
+
+
+
+<img class="mySlides w3-animate-fading" src="images/photos/mainpage/main.jpg" style="width:100%">
+
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+
+<div class="hr">
+  &nbsp
+</div>
+<div class="text">
+<h1 id="onas" class="Cukrárna">Na Pohodu</h1>
+<p class="onas">Zveme vás k příjemnému posezení v nově zrekonstruované letní zahradě s dětským zákoutím.</p>
+<p class="onas">Pořádají se zde akce plné té správné hudby, grilování a také možnost pořádání soukromých akcí.</p>
+<p class="onas"></p>
+</div>
+
+<div class="sponsors">
+  <div class="hr1">
+<hr>
+</div>
+<div>
+  &nbsp
+</div>
+<div class="row">
+  <div class="column">
+    <img src="images/logos/radegast.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/logos/cola.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/logos/ostravar.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/logos/stella.png" style="width:100%">
+  </div>
+</div>
+<div>
+  &nbsp
+</div>
+<div class="hr1">
+<hr style="color:blue;">
+</div>
+</div>
+
+      <div class="mapouter">
+          <div class="gmap_canvas">
+              <iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Bed%C5%99icha%20Nikodema%20364%2F8%2C%20708%2000%20Ostrava-Pustkovec&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              
+                </div>
+                <style>.mapouter{text-align:right;height:auto;max-height:300px;margin-left:auto;
+   margin-right:auto; 
+   
+                  }.gmap_canvas {overflow:hidden;background:none!important;height:auto;max-height:300px;box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+                  -webkit-filter: grayscale(1);}
+.gmap_canvas:hover {
+                  -webkit-filter: grayscale(0);
+                  transition: 1s;}
+
+                </style>
+                </div>
+
+      
+    <div class="columns">
+      <div class="column1">
+        <h2>Adresa</h2>
+        <p>Bedřicha Nikodema 364/8</p>
+        <p>Ostrava-Pustkovec</p>
+        <p>708 00</p>
+      </div>
+      
+      <div class="column1">
+        <h2>Otevírací doba</h2>  
+        <p>PO-PÁ od 15:00-21:00</p>
+        <p>SO-NE od 13:00-21:00</p>
+      </div>
+      <div class="column1">
+        <h2>Kontakty</h2>
+        <p>info@rockcafenapohodu.cz</p>
+        <p>Tel.: (+420) 737 687 663</p>
+        <div class="contacts">
+          <div class="social">
+            <a href="https://www.facebook.com/rcnapohodu" class="fa fa-facebook"></a>
+          </div>
+          <div class="social">
+            <a href="https://www.youtube.com/channel/UC5neNX5kizVv7nvM4j5J4TA/playlists" class="fa fa-youtube"></a>
+          </div>
+        </div>
+
+      </div>
+
+</div>
+
+<div class="footer">
+  &nbsp
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
